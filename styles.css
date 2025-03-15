@@ -1,0 +1,8 @@
+h1 { 
+    color: blue; 
+    text-align: left; /* Changed text alignment */
+} 
+.paragraph { 
+    font-size: 18px; 
+    color: green; 
+}
