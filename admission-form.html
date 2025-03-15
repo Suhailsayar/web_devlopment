@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title> 
+    <link rel="stylesheet" href="admission-form.css">
+</head>
+<body>
+    <div class="container"> 
+        <img src="https://www.static-contents.youth4work.com/university/Documents/Colleges/collegeLogo/20230720152927.png?v=20230720152927" alt="College Logo"> 
+        <h2>Admission Form</h2> 
+        <form> 
+            <label for="name">Full Name:</label> 
+            <input type="text" id="name" name="name" required> 
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" required> 
+            <label for="phone">Phone Number:</label> <!-- Added phone number field -->
+            <input type="tel" id="phone" name="phone" required> <!-- Made it required -->
+            <label for="course">Select Course:</label> 
+            <select id="course" name="course"> 
+                <option>B.Tech</option> 
+                <option>MBA</option> 
+                <option>B.Sc</option> 
+                <option>Other</option> 
+            </select> 
+            <label> 
+                <input type="checkbox" name="agree" required> I agree to the terms and conditions 
+            </label> 
+            <button type="submit">Submit</button> 
+        </form> 
+    </div> 
+</body>
+</html>
